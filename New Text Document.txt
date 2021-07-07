@@ -1,0 +1,7 @@
+echo "# writers" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/desmondgimara2/writers.git
+git push -u origin main
